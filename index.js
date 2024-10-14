@@ -7,6 +7,7 @@ const commonDefines = require("./lib/commonDefines.js");
 const commonFunctions = require("./lib/commonFunctions.js");
 const customLoggingFunctions = require("./lib/customLoggingFunctions.js");
 const dateTimeFunctions = require("./lib/dateTimeFunctions.js");
+const fullyKioskBrowserFunctions = require("./lib/fullyKioskBrowserFunctions.js");
 const lightingControlFunctions = require("./lib/lightingControlFunctions.js");
 const pingFunctions = require("./lib/pingFunctions.js");
 const presenceFunctions = require("./lib/presenceFunctions.js");
@@ -26,6 +27,7 @@ module.exports = () => {
         alexaControlFunctions,
         customLoggingFunctions,
         dateTimeFunctions,
+        fullyKioskBrowserFunctions,
         lightingControlFunctions,
         pingFunctions,
         presenceFunctions,
