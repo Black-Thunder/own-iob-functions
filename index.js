@@ -17,6 +17,7 @@ const smartPlugControlFunctions = require("./lib/smartPlugControlFunctions.js");
 const sunblindControlFunctions = require("./lib/sunblindControlFunctions.js");
 const telegramFunctions = require("./lib/telegramFunctions.js");
 const thermostatControlFunctions = require("./lib/thermostatControlFunctions.js");
+const toDoListFunctions = require("./lib/toDoListFunctions.js");
 const vacuumCleanerFunctions = require("./lib/vacuumCleanerFunctions.js");
 const weatherSensorFunctions = require("./lib/weatherSensorFunctions.js");
 
@@ -37,6 +38,7 @@ module.exports = () => {
         sunblindControlFunctions,
         telegramFunctions,
         thermostatControlFunctions,
+        toDoListFunctions,
         vacuumCleanerFunctions,
         weatherSensorFunctions,
         commonDefines,
