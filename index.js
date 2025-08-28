@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 const airConditionerControlFunctions = require("./lib/airConditionerControlFunctions.js");
 const airPurifierControlFunctions = require("./lib/airPurifierControlFunctions.js");
@@ -22,26 +22,26 @@ const vacuumCleanerFunctions = require("./lib/vacuumCleanerFunctions.js");
 const weatherSensorFunctions = require("./lib/weatherSensorFunctions.js");
 
 module.exports = () => {
-    return {
-        airConditionerControlFunctions,
-        airPurifierControlFunctions,
-        alexaControlFunctions,
-        customLoggingFunctions,
-        dateTimeFunctions,
-        fullyKioskBrowserFunctions,
-        lightingControlFunctions,
-        pingFunctions,
-        presenceFunctions,
-        pushoverFunctions,
-        sensorFunctions,
-        smartPlugControlFunctions,
-        sunblindControlFunctions,
-        telegramFunctions,
-        thermostatControlFunctions,
-        toDoListFunctions,
-        vacuumCleanerFunctions,
-        weatherSensorFunctions,
-        commonDefines,
-        commonFunctions
-    }
-}
+	return {
+		airConditionerControlFunctions,
+		airPurifierControlFunctions,
+		alexaControlFunctions,
+		customLoggingFunctions,
+		dateTimeFunctions,
+		fullyKioskBrowserFunctions,
+		lightingControlFunctions,
+		pingFunctions,
+		presenceFunctions,
+		pushoverFunctions,
+		sensorFunctions,
+		smartPlugControlFunctions,
+		sunblindControlFunctions,
+		telegramFunctions,
+		thermostatControlFunctions,
+		toDoListFunctions,
+		vacuumCleanerFunctions,
+		weatherSensorFunctions,
+		commonDefines,
+		commonFunctions,
+	};
+};
