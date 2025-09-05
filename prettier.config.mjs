@@ -3,6 +3,6 @@ import prettierConfig from "@iobroker/eslint-config/prettier.config.mjs";
 
 export default {
 	...prettierConfig,
-    useTabs: true,        // Tabs statt Spaces
-    singleQuote: false,   // Double quotes
+	useTabs: true, // Tabs statt Spaces
+	singleQuote: false, // Double quotes
 };
