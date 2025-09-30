@@ -8,6 +8,7 @@ const commonFunctions = require("./lib/commonFunctions.js");
 const customLoggingFunctions = require("./lib/customLoggingFunctions.js");
 const dateTimeFunctions = require("./lib/dateTimeFunctions.js");
 const fullyKioskBrowserFunctions = require("./lib/fullyKioskBrowserFunctions.js");
+const localNetworkFunctions = require("./lib/localNetworkFunctions.js");
 const lightingControlFunctions = require("./lib/lightingControlFunctions.js");
 const pingFunctions = require("./lib/pingFunctions.js");
 const presenceFunctions = require("./lib/presenceFunctions.js");
@@ -30,6 +31,7 @@ module.exports = () => {
 		dateTimeFunctions,
 		fullyKioskBrowserFunctions,
 		lightingControlFunctions,
+		localNetworkFunctions,
 		pingFunctions,
 		presenceFunctions,
 		pushoverFunctions,
