@@ -4,7 +4,8 @@
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"lint": "eslint -c eslint.config.mjs ."
+		"lint": "eslint -c eslint.config.mjs .",
+		"lint:fix": "eslint -c eslint.config.mjs . --fix"
 	},
 	"author": "Dominik Herbst",
 	"license": "MIT",
